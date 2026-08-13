@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main (){
+    float n;
+    cin >> n;
+    n=round(n*100)/100.0;
+    int a=n/100;
+    n=n-(a*100);
+    int b=n/50;
+    n=n-(b*50);
+    int c=n/20;
+    n=n-(c*20);
+    int d=n/10;
+    n=n-(d*10);
+    int e=n/5;
+    n=n-(e*5);
+    int f=n/2;
+    n=n-(f*2);
+    int g=n/1;
+    n=n-(g*1);
+    int h=n/0.50;
+    n=n-(h*0.50);
+    int i=n/0.25;
+    n=n-(i*0.25);
+    int j=n/0.10;
+    n=n-(j*0.10);
+    int k=n/0.05;
+    n=n-(k*0.05);
+    int l=round(n/0.01);
+    cout << "NOTAS:" << endl;
+    cout << a<<" nota(s) de R$ 100.00"<< endl;
+    cout << b<<" nota(s) de R$ 50.00"<< endl;
+    cout << c<<" nota(s) de R$ 20.00"<< endl;
+    cout << d<<" nota(s) de R$ 10.00"<< endl;
+    cout << e<<" nota(s) de R$ 5.00"<< endl;
+    cout << f<<" nota(s) de R$ 2.00"<< endl;
+    cout <<"MOEDAS:"<< endl;
+    cout << g<<" moeda(s) de R$ 1.00"<< endl;
+    cout << h<<" moeda(s) de R$ 0.50"<< endl;
+    cout << i<<" moeda(s) de R$ 0.25"<< endl;
+    cout << j<<" moeda(s) de R$ 0.10"<< endl;
+    cout << k<<" moeda(s) de R$ 0.05"<< endl;
+    cout << l<<" moeda(s) de R$ 0.01"<< endl;
+}

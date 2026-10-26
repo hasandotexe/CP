@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main(){
+    long long a,b;
+    cin>>a>>b;
+    cout<<((a%b==0||b%a==0)?"Multiples":"No Multiples")<<endl;
+    return 0;
+}
